@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#4d81a2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="36dp"
+    android:layout_height="match_parent"
+    tools:context=".operaciones">
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_uno"
+        android:text="SUMA"
+        android:textColor="@drawable/txt_btn_uno"/>
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_uno"
+        android:text="RESTA"
+        android:textColor="@drawable/txt_btn_uno"/>
+
+    <Button
+        android:id="@+id/btnDivi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_uno"
+        android:text="DIVISION"
+        android:textColor="@drawable/txt_btn_uno"/>
+
+    <Button
+        android:id="@+id/btnMulti"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_uno"
+        android:text="MULTIPLICACION"
+        android:textColor="@drawable/txt_btn_uno" />
+
+</LinearLayout>
